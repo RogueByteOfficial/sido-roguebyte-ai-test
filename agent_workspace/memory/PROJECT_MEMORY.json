@@ -1,0 +1,28 @@
+{
+  "test_probe": {
+    "projectId": "test_probe",
+    "name": "Probe Project",
+    "rootPath": "projects/probe",
+    "techStack": [
+      "Node.js",
+      "HTML"
+    ],
+    "notes": [
+      "Created during automated self-test"
+    ],
+    "updatedAt": "2026-09-12T00:11:29.792Z"
+  },
+  "verify_probe": {
+    "projectId": "verify_probe",
+    "name": "Verification Probe",
+    "rootPath": "projects/verify_probe",
+    "techStack": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "notes": [
+      "restart_probe_1789173894377"
+    ],
+    "updatedAt": "2026-09-12T00:44:54.378Z"
+  }
+}

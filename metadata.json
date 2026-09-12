@@ -1,0 +1,6 @@
+{
+  "name": "Local Autonomous AI Agent",
+  "description": "Production-grade local autonomous AI agent platform with hardware detection, local LLM manager, tool sandboxing, browser & terminal control, and unified dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

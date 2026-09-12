@@ -1,0 +1,46 @@
+{
+  "learnedSolutions": [
+    {
+      "problemPattern": "node_modules missing or package not found",
+      "solution": "Run npm install in the project directory before executing build",
+      "tags": [
+        "node",
+        "npm",
+        "build"
+      ],
+      "addedAt": "2026-09-12T00:10:41.477Z"
+    },
+    {
+      "problemPattern": "git remote origin not set",
+      "solution": "Initialize git repository and prompt user to link remote or create repository via GitHub integration",
+      "tags": [
+        "git",
+        "github"
+      ],
+      "addedAt": "2026-09-12T00:10:41.478Z"
+    }
+  ],
+  "errorsEncountered": [
+    {
+      "error": "[eval]:1\nthrow new Error('Intentional probe failure')\n^\n\nError: Intentional probe failure\n    at [eval]:1:7\n    at runScriptInThisContext (node:internal/vm:209:10)\n    at node:internal/process/execution:446:12\n    at [eval]-wrapper:6:24\n    at runScriptInContext (node:internal/process/execution:444:60)\n    at evalFunction (node:internal/process/execution:279:30)\n    at evalTypeScript (node:internal/process/execution:291:3)\n    at node:internal/main/eval_string:74:3\n\nNode.js v22.23.2\n",
+      "fix": "Handled intentional probe exception and stored diagnostic patch",
+      "occurrences": 5,
+      "lastSeen": "2026-09-12T00:44:54.460Z"
+    },
+    {
+      "error": "Simulated non-zero exit code 1",
+      "fix": "Analyzed exit code, verified process runner recovery",
+      "occurrences": 3,
+      "lastSeen": "2026-09-12T00:11:29.857Z"
+    }
+  ],
+  "userPreferences": {
+    "theme": "light",
+    "autoConfirmSafeActions": true,
+    "maxRetries": 3,
+    "lastSelfTest": "2026-09-12T00:11:29.792Z",
+    "lastVerificationRun": "restart_probe_1789173894377"
+  },
+  "environmentFacts": {},
+  "credentialsMetadata": []
+}

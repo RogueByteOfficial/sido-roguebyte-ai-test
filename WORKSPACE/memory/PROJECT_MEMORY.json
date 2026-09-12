@@ -1,0 +1,15 @@
+{
+  "verify_probe": {
+    "projectId": "verify_probe",
+    "name": "Verification Probe",
+    "rootPath": "projects/verify_probe",
+    "techStack": [
+      "TypeScript",
+      "Node.js"
+    ],
+    "notes": [
+      "restart_probe_1789177225683"
+    ],
+    "updatedAt": "2026-09-12T01:40:25.683Z"
+  }
+}

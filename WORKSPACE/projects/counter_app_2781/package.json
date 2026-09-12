@@ -1,0 +1,8 @@
+{
+  "name": "counter_app_2781",
+  "version": "1.0.0",
+  "description": "Autonomously generated interactive counter application",
+  "scripts": {
+    "test": "node -e \"const fs=require('fs'); const html=fs.readFileSync('index.html','utf8'); if(!html.includes('counter-btn') || !html.includes('count-value')) process.exit(1); console.log('Project verification tests: 2 passed, 0 failed');\""
+  }
+}

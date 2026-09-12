@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Counter</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; }
+    button { padding: 0.5rem 1rem; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1 id="app-heading">Interactive Counter Application</h1>
+  <p>Current count: <span id="count-value">0</span></p>
+  <button id="counter-btn">Increment Counter</button>
+  <script>
+    let count = 0;
+    const countEl = document.getElementById('count-value');
+    const btn = document.getElementById('counter-btn');
+    btn.addEventListener('click', () => {
+      count += 1;
+      countEl.textContent = String(count);
+      btn.textContent = 'Count: ' + count;
+    });
+  </script>
+</body>
+</html>
