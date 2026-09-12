@@ -154,4 +154,9 @@ By default, external cloud services are marked `NOT CONFIGURED` with zero fake p
 - **Workspace Sandboxing**: Path traversal protection and automatic timestamped backups in `agent_workspace/backups/`.
 - **Tri-Tier Persistent Memory**: Short-term, long-term, and project memory survive process reboots.
 - **Audit & Redaction**: Sensitive tokens are scrubbed from logs before writes to `agent_workspace/logs/audit.log`.
+## Support & Acknowledgments
+Ko-fi: https://ko-fi.com/roguebyte
 
+### Developed with ❤️ by Sido dev
+GitHub: https://github.com/RogueByteOfficial
+If you find this software helpful, consider starring ⭐ the repository!
